@@ -3,7 +3,7 @@
 # Django-socialNetwork
 
 
-Django provides some useful tools that allows to yo develop a social application, which means that users are able to join an online platform and interact with each other by sharing content. I focused on building an image sharing platform. Users can be able to bookmark any image on the Internet and share it with others. They also be able to see activity on the platform from the users they follow and like/unlike the images shared by them.
+Django provides some useful tools that can allow you develop a social application, which means that users are able to join an online platform and interact with each other by sharing content. I focused on building an image sharing platform. Users can be able to bookmark any image on the Internet and share it with others. They also be able to see activity on the platform from the users they follow and like/unlike the images shared by them.
 
 
 ### Django tools used
