@@ -60,9 +60,11 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'bookmarks.urls'
 
 AUTHENTICATION_BACKENDS = [
-    'django.contrib.auth.backends.ModelBackend',
     'account.authentication.EmailAuthBackend',
     'social_core.backends.facebook.FacebookOAuth2',
+    'social_core.backends.twitter.TwitterOAuth',
+
+    'django.contrib.auth.backends.ModelBackend',
 ]
 
 os.environ.get('EMAIL')
@@ -70,6 +72,9 @@ os.environ.get('EMAIL')
 SOCIAL_AUTH_FACEBOOK_KEY = os.environ.get('SOCIAL_AUTH_FACEBOOK_KEY')
 SOCIAL_AUTH_FACEBOOK_SECRET = os.environ.get('SOCIAL_AUTH_FACEBOOK_SECRET')
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
+
+SOCIAL_AUTH_TWITTER_KEY=os.environ.get('SOCIAL_AUTH_TWITTER_KEY')
+SOCIAL_AUTH_TWITTER_SECRET=os.environ.get('SOCIAL_AUTH_TWITTER_SECRET')
 
 TEMPLATES = [
     {
