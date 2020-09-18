@@ -33,6 +33,16 @@ Django provides some useful tools that can allow you develop a social applicatio
 | [Social Authentication](https://python-social-auth.readthedocs.io/en/latest/backends/index.html#supported-backends) | You can add social authentication to your site using services such as **Facebook**, **Twitter**, or **Google**. Python Social Auth is a Python module that simplifies the process of adding social authentication to your website. Using this module, you can let your users log in to your website using their accounts from other services.|
 
 
+
+### Installation
+
+```
+git clone https://github.com/nildiert/Django-socialNetwork.git && cd Django-socialNetwork/
+chmod u+x install.sh && ./install.sh
+python3 manage.py runserver
+```
+
+
 ### Changelog
 
 ---
