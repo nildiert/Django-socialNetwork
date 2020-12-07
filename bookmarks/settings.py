@@ -25,7 +25,7 @@ SECRET_KEY = 'mfp^_xl^s4sr)_9yuy)2&&rn#tl!$53cr=)ec&pwf=bc*!and&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mysite.com', 'localhost', '127.0.0.1', '0.0.0.0']
+ALLOWED_HOSTS = ['mysite.com', 'localhost', '127.0.0.1', '0.0.0.0', 'nildiert-social-network.herokuapp.com']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 LOGIN_URL = 'login'
