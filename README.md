@@ -38,6 +38,10 @@ Django provides some useful tools that can allow you develop a social applicatio
 | [custom decorators for your views](https://www.python.org/dev/peps/pep-0318/) | Decorators are a way to restrict access to views based on the request method or control caching behaviour. This is particularly useful when you want to separate logged-in users from unauthenticated users or create an admin page that only privileged users can access. |
 | [AJAX pagination to the list views](https://stackoverflow.com/questions/4608323/django-core-paginator-ajax-pagination-with-jquery) | Used AJAX pagination to build an infinite scroll functionality. Infinite scroll is achieved by loading the next results automatically when the user scrolls to the bottom of the page. |
 | [The contenttypes framework](https://docs.djangoproject.com/en/3.0/ref/contrib/contenttypes/) | Django includes a contenttypes application that can track all of the models installed in your Django-powered project, providing a high-level, generic interface for working with your models. |
+| [Signals](https://docs.djangoproject.com/en/3.0/ref/signals/) | A list of all the signals that Django sends. All built-in signals are sent using the send() method. |
+| [Redis](https://pypi.org/project/redis/) | Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker. Redis provides data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes, and streams. |
+
+
 
 ### Installation
 
