@@ -7,6 +7,10 @@
     <div id="image-list">
         {% include "images/image/list_ajax.html" %}
     </div>
+    <br>
+    <h1>Images ranking</h1>
+
+    <a href="{% url "images:ranking" %}">See image ranking</a>
 {% endblock %}
 
 {% block domready  %}
