@@ -37,6 +37,7 @@ Django provides some useful tools that can allow you develop a social applicatio
 | [Cross-site request forgery in AJAX requests](https://docs.djangoproject.com/en/3.0/ref/csrf/#ajax) | The CSRF middleware and template tag provides easy-to-use protection against Cross Site Request Forgeries. This type of attack occurs when a malicious website contains a link, a form button or some JavaScript that is intended to perform some action on your website, using the credentials of a logged-in user who visits the malicious site in their browser. |
 | [custom decorators for your views](https://www.python.org/dev/peps/pep-0318/) | Decorators are a way to restrict access to views based on the request method or control caching behaviour. This is particularly useful when you want to separate logged-in users from unauthenticated users or create an admin page that only privileged users can access. |
 | [AJAX pagination to the list views](https://stackoverflow.com/questions/4608323/django-core-paginator-ajax-pagination-with-jquery) | Used AJAX pagination to build an infinite scroll functionality. Infinite scroll is achieved by loading the next results automatically when the user scrolls to the bottom of the page. |
+| [The contenttypes framework](https://docs.djangoproject.com/en/3.0/ref/contrib/contenttypes/) | Django includes a contenttypes application that can track all of the models installed in your Django-powered project, providing a high-level, generic interface for working with your models. |
 
 ### Installation
 
